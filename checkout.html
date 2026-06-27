@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon_io/favicon-32x32.png" type="image/png">    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&f[]=cabinet-grotesk@100,200,300,400,500,700,800,900&display=swap" rel="stylesheet">
+    <title>Checkout | Eysen</title>
+</head>
+
+<body>
+    <header>
+        <nav class="link">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#product">Shop</a></li>
+                <li><a href="#">New-drops</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+
+        <nav class="icons">
+            <ul>
+                <li>
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-item-count"></span>
+                    </a>
+                </li>
+                <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="checkout-order">
+        <section class="checkout-wrapper">
+            <h1>Shipping Details</h1>
+            <form id="checkout" action="">
+                <div>
+                    <label for="firstname-input">
+                        <p>First Name</p>
+                    </label>
+                    <input type="text" name="firstname" id="firstname-input" placeholder="Eysen">
+                </div>
+
+                <div>
+                    <label for="lastname-input">
+                        <p>Last Name</p>
+                    </label>
+                    <input type="text" name="lastname" id="lastname-input" placeholder="Store">
+                </div>
+        
+                <div>
+                    <label for="phone-input">
+                        <p>Mobile Number</p>
+                    </label>
+                    <input type="tel" name="phone" id="phone-input" placeholder="+44 7432 336357">
+                </div>
+
+                <div>
+                    <label for="email-input">
+                        <p>E-mail</p>
+                    </label>
+                    <input type="email" name="email" id="email-input" placeholder="eysen@example.com">
+                </div>
+
+                <div>
+                    <label for="state-input">
+                        <p>State</p>
+                    </label>
+                    <input type="text" name="state" id="state-input" placeholder="England">
+                </div>
+        
+                <div>
+                    <label for="city-input">
+                        <p>City</p>
+                    </label>
+                    <input type="text" name="city" id="city-input" placeholder="London">
+                </div>
+
+                <div>
+                    <label for="street-input">
+                        <p>Street</p>
+                    </label>
+                    <input type="text" name="street" id="street-input" placeholder="Manchester Str">
+                </div>
+                
+                <div>
+                    <label for="house-input">
+                        <p>Home Address</p>
+                    </label>
+                    <input type="text" name="house" id="house-input" placeholder="House 31A">
+                </div>
+
+            </form>
+        </section>
+
+        <section class="order">
+            <h1>Order Summary</h1>
+            <div class="order-summary">
+                <div class="info">
+                    <img src="images/ES1.png" alt="">
+                    <div class="details">
+                        <p class="name">Eysen Double Layer</p>
+                        <span class="color">Black</span>
+                        <span class="size">XL</span>
+                        <span class="quantity">1</span>
+                        <span class="price">£45</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-total">
+                <p>Subtotal <span class="subtotal">£45</span></p>
+                <p>Delivery Fee <span class="delivery-fee">£2.25</span></p>
+                <p>Grand Total <span class="grand-total">£47.25</span></p>
+            </div>
+        </section>
+    </main>
+
+    <p class="checkout-btn"><button type="submit" form="checkout">Continue &rightarrow;</button></p>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-links">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="index.html"><img src="ESimg/logo.png" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Our Culture</a></li>
+                    <li><a href="#">Brand Partners</a></li>
+                    <li><a href="#">Street Culture</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Style Consultation</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Loyalty Program</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Connect</h3>
+                <ul>
+                    <li><p>17 Seven Acre House, Queensmead Rd, High Wycombe, HP10 9XD</p></li>
+                    <li><a href="tel:+447432336357">Phone: (+44) 7432 336357</a></li>
+                    <li><a href="mailto:danielobenney@gmail.com">Email: info@Eysen.com</a></li>
+                    <p class="social-icons">
+                        <a href="https://facebook.com/Eysen" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/Eysen" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/Eysen" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://threads.com/Eysen" target="_blank"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://wa.me/+447432336357" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://tiktok.com/Eysen" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://pinterest.com/Eysen" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </p>
+                </ul>
+            </div>
+        </div>
+
+        <p id="copyright">&copy; 2026 <i class="brand-name">Eysen.</i> All rights reserved. &VerticalLine; <a href="">Terms of Service</a>  &VerticalLine; <a href="">Privacy Policy</a></p>
+        <p id="ref">Built by <i class="brand-name">Codeine&reg;</i></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

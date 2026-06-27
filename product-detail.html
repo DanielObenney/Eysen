@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+
+        <nav class="link">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#product">Shop</a></li>
+                <li><a href="#">New-drops</a></li>
+                <li><a href="#">About</a></li>
+                
+            </ul>
+        </nav>
+
+        <!-- <h3>Eysen</h3> -->
+
+        <nav class="icons">
+            <ul>
+                <li>
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-item-count"></span>
+                    </a>
+                </li>                
+                <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-detail">
+        <div class="product-img">
+            <div class="thumbnail-list">
+                <!-- <img src="/images/product1_green_1.jpg">
+                <img src="/images/product1_green_2.jpg">
+                <img src="/images/product1_green_3.jpg">
+                <img src="/images/product1_green_4.jpg"> -->
+            </div>
+            <div class="main-img">
+                <!-- <img src="images/product1_green_1.jpg" > -->
+            </div>
+        </div>
+
+        <div class="product-info">
+            <h2 class="title"></h2>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span>(4.8)</span>
+            </div>
+            <span class="price"></span>
+            <p class="description"></p>
+            <div class="size-selection">
+                <p>Select Size</p>
+                <div class="size-options">
+                    <!-- <button class="selected">S</button>
+                    <button>M</button>
+                    <button>L</button>
+                    <button>XL</button>
+                    <button>XXL</button> -->
+                </div>
+            </div>
+            <div class="color-selection">
+                <p>Select Color</p>
+                <div class="color-options">
+                    <!-- <img src="images/product1_green_1.jpg">
+                    <img src="images/product1_yellow_1.jpg">
+                    <img src="images/product1_red_1.jpg">
+                    <img src="images/product1_white_1.jpg">
+                    <img src="images/product1_maroon_1.jpg"> -->
+                </div>
+            </div>
+            <button class="btn" id="add-cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+            <div class="product-policy">
+                <p>Free shipping on orders over £200</p>
+                <p>30-day money-back guarantee</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-links">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="index.html"><img src="ESimg/logo.png" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Our Culture</a></li>
+                    <li><a href="#">Brand Partners</a></li>
+                    <li><a href="#">Street Culture</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Style Consultation</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Loyalty Program</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Connect</h3>
+                <ul>
+                    <li><p>17 Seven Acre House, Queensmead Rd, High Wycombe, HP10 9XD</p></li>
+                    <li><a href="tel:+447432336357">Phone: (+44) 7432 336357</a></li>
+                    <li><a href="mailto:danielobenney@gmail.com">Email: info@Eysen.com</a></li>
+                    <p class="social-icons">
+                        <a href="https://facebook.com/Eysen" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/Eysen" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/Eysen" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://threads.com/Eysen" target="_blank"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://wa.me/+447432336357" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://tiktok.com/Eysen" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://pinterest.com/Eysen" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </p>
+                </ul>
+            </div>
+        </div>
+
+        <p id="copyright">&copy; 2026 Eysen. All rights reserved. &VerticalLine; <a href="">Terms of Service</a>  &VerticalLine; <a href="">Privacy Policy</a></p>
+        <p id="ref">Built by <i class="brand-name">Codeine&reg;</i></p>
+
+     </footer>
+    <script src="script.js"></script>
+</body>
+</html>
