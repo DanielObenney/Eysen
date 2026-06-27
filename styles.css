@@ -556,6 +556,13 @@ header {
   display: block;
   padding: 12px 30px;
   margin: 30px 0 0 auto;
+  color: #851706;
+  text-decoration: none;
+}
+
+.cart-total .btn a {
+  color: #851706;
+  text-decoration: none;
 }
 
 .policy {
